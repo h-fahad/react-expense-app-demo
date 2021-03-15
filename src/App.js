@@ -4,7 +4,7 @@ import './App.css';
 import { Header } from './components/Header';
 import { Balance } from './components/Balance'
 import { AccountSummary } from './components/AccountSummary'
-import { TransactionHistory } from './components/TransactionHistory'
+import { TransactionList } from './components/TransactionHistory'
 import { AddTransaction } from './components/AddTransaction'
 import { GlobalProvider } from './context/GlobalState';
 
@@ -18,7 +18,7 @@ function App() {
         <Balance />
         <AccountSummary />
 
-        <TransactionHistory />
+        <TransactionList />
         <AddTransaction />
       </div>
     </GlobalProvider>
